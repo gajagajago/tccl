@@ -77,9 +77,17 @@ If the installation was successful, the log will state that the TCCL channels ha
 
 ## Artifact Evaluation
 
-See [Artifact Evaluation](./AE.md) for the details to reproduce the results in the paper[[1]](#1).
+See [Artifact Evaluation](./AE.md) for the details to reproduce the results in the [paper](https://dl.acm.org/doi/10.1145/3620666.3651362).
 
 ## References
-
-<a id="1">[1]</a> 
-Heehoon Kim, Junyeol Ryu, and Jaejin Lee. TCCL: A Collective Communication Library for PCIe-Dependent Systems. ASPLOS 2024: Proceedings of the 28th International Conference on Architectural Support for Programming Languages and Operating Systems, To appear.
+If you find TCCL relevant to your research, please consider citing:
+```
+@inproceedings{tccl-asplos24,
+    title = {{TCCL}: Discovering Better Communication Paths for {PCIe} {GPU} Clusters},
+    author = {Kim, Heehoon and Ryu, Junyeol and Lee, Jaejin},
+    booktitle = {Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+    pages = {999–1015},
+    year = {2024},
+    url = {https://doi.org/10.1145/3620666.3651362},
+}
+```
